@@ -1,5 +1,5 @@
 #include <unistd.h>
-
+#include "main.h"
 /**
  * _putchar - Affiche le caractère c sur la sortie standard
  * @c: Le caractère à afficher
