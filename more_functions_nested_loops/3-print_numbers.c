@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * print_numbers - prints the numbers from 0 to 9, followed by a new line.
- * Only uses _putchar twice.
+ * print_numbers - prints the numbers from 0 to 9
+ * followed by a new line
  */
 void print_numbers(void)
 {
-    char nums[] = "0123456789\n";
-    int i;
+	int i;
 
-    for (i = 0; nums[i] != '\0'; i++)
-        _putchar(nums[i]);
+	for (i = 0; i < 10; i++)
+		_putchar(i + '0');
+	_putchar('\n');
 }
