@@ -1,19 +1,7 @@
-#include "main.h"
+#ifndef MAIN_H
+#define MAIN_H
 
-/**
- * _strlen - returns the length of a string
- * @s: string to evaluate
- *
- * Return: the length of the string
- */
-int _strlen(char *s)
-{
-	int len = 0;
+void _putchar(char c);
+void puts2(char *str);
 
-	while (s[len] != '\0')
-	{
-		len++;
-	}
-
-	return (len);
-}
+#endif
