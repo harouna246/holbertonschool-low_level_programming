@@ -6,25 +6,25 @@
  */
 void puts_half(char *str)
 {
-    int i, len = 0, start;
+	int i, len = 0, start;
 
-    /* Calculer la longueur de la chaîne */
-    while (str[len] != '\0')
-    {
-        len++;
-    }
+	/* Calculate the length of the string */
+	while (str[len] != '\0')
+	{
+		len++;
+	}
 
-    /* Déterminer le point de départ : moitié ou (longueur + 1)/2 si impaire */
-    if (len % 2 == 0)
-        start = len / 2;
-    else
-        start = (len + 1) / 2;
+	/* Determine the starting point */
+	if (len % 2 == 0)
+		start = len / 2;
+	else
+		start = (len + 1) / 2;
 
-    /* Afficher à partir de start */
-    for (i = start; i < len; i++)
-    {
-        _putchar(str[i]);
-    }
+	/* Print from the starting point */
+	for (i = start; i < len; i++)
+	{
+		_putchar(str[i]);
+	}
 
-    _putchar('\n');
+	_putchar('\n');
 }
