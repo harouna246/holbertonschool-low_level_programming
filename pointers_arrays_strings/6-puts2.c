@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * puts2 - prints every other character of a string, starting with the first
- * @str: input string
+ * puts2 - Affiche un caractère sur deux d'une chaîne de caractères
+ * @str: chaîne à traiter
  */
 void puts2(char *str)
 {
@@ -16,5 +16,5 @@ void puts2(char *str)
         }
         i++;
     }
-    _putchar('\n'); // Only include if the expected output ends with a newline
+    _putchar('\n'); /* Inclure ceci seulement si une nouvelle ligne est attendue */
 }
