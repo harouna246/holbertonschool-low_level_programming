@@ -19,4 +19,3 @@ char *_strcpy(char *dest, char *src)
 	dest[i] = '\0'; // N'oublie pas de copier le caractère nul
 	return (dest);
 }
-

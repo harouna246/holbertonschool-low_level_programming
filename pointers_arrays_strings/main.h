@@ -1,7 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-void _putchar(char c);
-void puts2(char *str);
+char *_strcpy(char *dest, char *src);
+int _putchar(char c);
 
 #endif
